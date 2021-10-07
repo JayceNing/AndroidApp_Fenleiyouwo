@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_home"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.fenleiyouwo.MainActivity">
+    <com.youth.banner.Banner
+        android:id="@+id/mBanner"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_below="@+id/bar"
+        android:layout_marginTop="-80dp"/>
+    <LinearLayout
+        android:id="@+id/bar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="-60dp"
+            android:src="@drawable/bar"/>
+
+    </LinearLayout>
+
+<ImageView
+    android:id="@+id/a1"
+    android:layout_width="220dp"
+    android:layout_height="220dp"
+    android:src="@drawable/a1"
+    android:layout_marginTop="20dp"
+    android:layout_below="@+id/mBanner"/>
+    <ImageView
+        android:id="@+id/a2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_toRightOf="@+id/a1"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@+id/mBanner"
+        android:src="@drawable/a2"
+        />
+    <ImageView
+        android:id="@+id/a3"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_toRightOf="@+id/a1"
+        android:layout_below="@id/a2"
+        android:layout_marginTop="-50dp"
+        android:src="@drawable/a3"
+        />
+
+
+
+<!--    <com.loopj.android.image.SmartImageView-->
+<!--        android:id="@+id/iv"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_below="@+id/a1"-->
+<!--        />-->
+<!--    <com.loopj.android.image.SmartImageView-->
+<!--        android:id="@+id/tree"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/a1"-->
+<!--        />-->
+
+</RelativeLayout>
+
+
+

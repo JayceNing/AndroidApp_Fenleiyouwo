@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">分类邮我</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_me">Me</string>
+    <string name="tab_text_1">环境热点聚焦</string>
+    <string name="tab_text_2">答题我知道</string>
+</resources>

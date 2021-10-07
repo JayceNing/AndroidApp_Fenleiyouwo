@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_height="50dp"
+        app:tabIndicatorHeight="4dp"
+        app:tabIndicatorFullWidth="false"
+        app:tabIndicatorGravity="bottom"
+        app:tabMaxWidth="0dp"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabRippleColor="@color/app_color_theme_5"
+        app:tabSelectedTextColor="@color/app_color_theme_5"
+        app:tabTextColor="@color/app_color_theme_5"
+        app:tabIndicatorColor="@color/app_color_theme_5">
+
+    </com.google.android.material.tabs.TabLayout>
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:alpha="0.6"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/tab_layout">
+    </View>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_below="@+id/v1">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/bar"-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        tools:ignore="MissingConstraints">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/a1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="220dp"-->
+<!--            android:layout_marginTop="-60dp"-->
+<!--            android:src="@drawable/bar"/>-->
+
+<!--    </LinearLayout>-->
+
+
+
+</RelativeLayout>

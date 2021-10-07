@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/qmui_config_color_transparent"
+    >
+    <com.qmuiteam.qmui.layout.QMUILinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        app:qmui_outerNormalColor="@color/qmui_config_color_gray_1"
+        app:qmui_showBorderOnlyBeforeL="true"
+        app:qmui_shadowAlpha="0.15"
+        app:qmui_shadowElevation="14dp"
+        app:qmui_radius="10dp">
+
+        <TextView
+            android:id="@+id/environment_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="标题"
+            android:layout_gravity="center_horizontal" />
+
+        <com.loopj.android.image.SmartImageView
+            android:id="@+id/articlePic"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/a1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="内容"
+            android:id="@+id/environment_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+
+    </com.qmuiteam.qmui.layout.QMUILinearLayout>
+</LinearLayout>

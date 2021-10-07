@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="278dp"
+        android:layout_height="313dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp">
+        <!-- 第一行-->
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:width="0dp"
+                android:text="成长值："
+                android:textSize="15sp" />
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="3" />
+            <TextView
+                android:id="@+id/num"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:width="0dp"
+                android:text="00" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:id="@+id/TL1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.17"
+        android:layout_marginLeft="50dp">
+
+        <TableRow
+            >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_column="0"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="28dp"
+                android:src="@android:drawable/ic_menu_info_details" />
+            <TextView
+                android:id="@+id/tv_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="水" />
+            <TextView
+                android:id="@+id/num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="0个" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:onClick="water"
+                android:background="@color/app_color_theme_5"
+                android:text="使用" />
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_column="0"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="28dp"
+                android:src="@android:drawable/ic_menu_info_details" />
+            <TextView
+                android:id="@+id/tv_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="肥料" />
+            <TextView
+                android:id="@+id/num3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="0个" />
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="使用"
+                android:background="@color/app_color_theme_5"
+                android:onClick="fertilizer"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

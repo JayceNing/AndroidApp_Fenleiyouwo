@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+
+    <Button
+        android:id="@+id/scancode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadScanKitBtnClick"
+        android:background="@color/app_color_theme_5"
+        android:text="扫码" />
+
+    <TextView
+        android:id="@+id/return_scan_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

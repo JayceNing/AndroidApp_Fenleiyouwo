@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.fenleiyouwo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.myapp"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        android:name="com.example.fenleiyouwo.Data"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".knowLedge"
+            android:label="分类知识"></activity>
+        <activity android:name=".garbageDetail"
+            android:label="搜索结果"></activity>
+        <activity android:name=".tabs.WebViewActivity"></activity>
+        <activity android:name=".takePhoto"></activity>
+        <activity android:name=".place"></activity>
+        <activity android:name=".ui.me.TreeActivity"></activity>
+        <activity android:name=".ui.me.MessageActivity" />
+        <activity android:name=".ui.me.SignActivity" />
+        <activity android:name=".ui.me.MyPageActivity" />
+        <activity android:name=".ui.me.MeActivity" />
+        <activity android:name=".PicGarbageDetail"/>
+        <activity android:name=".ui.me.myinformation"></activity>
+        <activity android:name="com.huawei.hms.hmsscankit.ScanKitActivity" />
+        <activity android:name=".ui.home.scanCodeActivity"/>
+
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="MH2BZ-UFWWD-C7K4M-PQJM2-4ZQIS-NIFHH"/>
+        <provider
+            android:authorities="com.example.a1.camera.fileprovider"
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths">
+            </meta-data>
+        </provider>
+    </application>
+<!--    <meta-data-->
+<!--        android:name="android.max_aspect"-->
+<!--        android:value="2.34" />-->
+
+<!--    &lt;!&ndash;  huawei &ndash;&gt;-->
+<!--    <meta-data-->
+<!--        android:name="android.notch_support"-->
+<!--        android:value="true" />-->
+
+<!--    &lt;!&ndash;  xiaomi &ndash;&gt;-->
+<!--    <meta-data-->
+<!--        android:name="notch.config"-->
+<!--        android:value="portrait|landscape"/>-->
+<!--    -->
+
+    <!--腾讯地图 SDK 要求的权限(开始)-->
+    <!--访问网络获取地图服务-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--检查网络可用性-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- 访问WiFi状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--需要外部存储写权限用于保存地图缓存-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--获取 device id 辨别设备-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!--腾讯地图 SDK 要求的权限(结束)-->
+
+    <!-- 通过GPS得到精确位置 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 通过网络得到粗略位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 访问网络. 某些位置信息需要从网络服务器获取 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 访问WiFi状态. 需要WiFi信息用于网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 修改WiFi状态. 发起WiFi扫描, 需要WiFi信息用于网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 访问网络状态, 检测网络的可用性. 需要网络运营商相关信息用于网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 访问网络的变化, 需要某些信息用于网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!-- 访问手机当前状态, 需要device id用于网络定位 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 访问蓝牙状态，需要蓝牙信息用于网络定位 -->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <!-- 支持A-GPS辅助定位 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <!-- 用于 log 日志 -->
+<!--    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+
+    <!--相机权限-->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!--读文件权限-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--使用特性-->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+
+</manifest>
