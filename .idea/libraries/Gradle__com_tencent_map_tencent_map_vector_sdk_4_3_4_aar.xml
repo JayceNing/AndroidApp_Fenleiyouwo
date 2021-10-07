@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tencent.map:tencent-map-vector-sdk:4.3.4@aar">
+    <CLASSES>
+      <root url="file://C:/Program Files/Android/.gradle/caches/transforms-2/files-2.1/c5032ebf254542fb5d8cb45e3de40614/jetified-tencent-map-vector-sdk-4.3.4/res" />
+      <root url="file://C:/Program Files/Android/.gradle/caches/transforms-2/files-2.1/b0e5d380e4a879b5f81a7aba3633fb09/jetified-tencent-map-vector-sdk-4.3.4/res" />
+      <root url="jar://C:/Program Files/Android/.gradle/caches/transforms-2/files-2.1/b0e5d380e4a879b5f81a7aba3633fb09/jetified-tencent-map-vector-sdk-4.3.4/jars/classes.jar!/" />
+      <root url="file://C:/Program Files/Android/.gradle/caches/transforms-2/files-2.1/b0e5d380e4a879b5f81a7aba3633fb09/jetified-tencent-map-vector-sdk-4.3.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Program Files/Android/.gradle/caches/modules-2/files-2.1/com.tencent.map/tencent-map-vector-sdk/4.3.4/d636acd724485196ff80c1bc6f2c221f32bfa371/tencent-map-vector-sdk-4.3.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

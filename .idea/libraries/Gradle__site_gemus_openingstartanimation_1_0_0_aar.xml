@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: site.gemus:openingstartanimation:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://C:/Program Files/Android/.gradle/caches/transforms-2/files-2.1/b57b3ec6e3f51eb04281f3e6e3efa98b/jetified-openingstartanimation-1.0.0/jars/classes.jar!/" />
+      <root url="file://C:/Program Files/Android/.gradle/caches/transforms-2/files-2.1/b57b3ec6e3f51eb04281f3e6e3efa98b/jetified-openingstartanimation-1.0.0/res" />
+      <root url="file://C:/Program Files/Android/.gradle/caches/transforms-2/files-2.1/b57b3ec6e3f51eb04281f3e6e3efa98b/jetified-openingstartanimation-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Program Files/Android/.gradle/caches/modules-2/files-2.1/site.gemus/openingstartanimation/1.0.0/da67079e677bf9275960367dda88da885e3a05a/openingstartanimation-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/Program Files/Android/.gradle/caches/modules-2/files-2.1/site.gemus/openingstartanimation/1.0.0/944a7737dedfbc08ca3b406535ee3b741ae3c912/openingstartanimation-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
